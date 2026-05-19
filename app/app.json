@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Asistencia QR PostgreSQL",
+    "slug": "asistencia-qr-postgres-sdk54",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.demo.asistenciaqrpostgres"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permite usar la cámara para escanear códigos QR de asistencia."
+        }
+      ]
+    ]
+  }
+}
